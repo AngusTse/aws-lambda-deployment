@@ -1,4 +1,0 @@
-{
-    "description": "sum two integer",
-    "handler": "index.sum"
-}
