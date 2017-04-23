@@ -1,0 +1,32 @@
+{
+  "name": "aws-lambda-deployment",
+  "version": "0.1.0",
+  "description": "demo",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "lambda-tester": "^2.8.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lambda-tester": "^2.8.1",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngusTse/aws-lambda-deployment.git"
+  },
+  "keywords": [
+    "lambda",
+    "test"
+  ],
+  "author": "Angus Tse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngusTse/aws-lambda-deployment/issues"
+  },
+  "homepage": "https://github.com/AngusTse/aws-lambda-deployment#readme"
+}
