@@ -7,4 +7,4 @@ Resources:
     Properties:
       Handler: index.sum
       Runtime: nodejs6.10
-      CodeUri: ./lambda-test/SumFunctio/
+      CodeUri: s3://codepipeline-us-west-2-724174940584/lambda-test/SumFunctio/
