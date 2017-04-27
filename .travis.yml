@@ -7,7 +7,7 @@ before_script:
 before_install:
   - sudo pip install --upgrade pip
 install:
-  - pip install awscli
+  - sudo pip install awscli
   - "./travis-install-apex.sh"
 after_success:
   - cd ../../
