@@ -11,7 +11,4 @@ install:
   - "./travis-install-apex.sh"
 after_success:
   - cd ../../
-deploy:
-  - provider: script
-    skip_cleanup: true
-    script: ./apex deploy
+  - ./apex deploy
