@@ -3,7 +3,7 @@ node_js:
   - "6"
 script:
   - cd functions/sum && npm install && npm test
-  - cd ../functions/show && npm install && npm test
+  - cd functions/show && npm install && npm test
 before_install:
   - sudo pip install --upgrade pip
 install:
