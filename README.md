@@ -37,3 +37,7 @@ http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 `apex deploy`
 
 `apex invoke hello`
+
+## Deploy with travisCI
+
+https://github.com/unfoldingWord-dev/door43.org/wiki/Deploying-to-AWS-from-Travis-CI

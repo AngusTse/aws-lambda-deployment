@@ -11,4 +11,4 @@ install:
   - "./travis-install-apex.sh"
 after_success:
   - cd ../../
-  - ./apex deploy
+  - "./travis-apex-deploy.sh"
