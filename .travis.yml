@@ -4,3 +4,11 @@ node_js:
 before_script:
   - cd functions/sum
   - npm install
+before_install:
+  - pip install awscli
+  - cd ../../
+  - "./travis-install-apex.sh"
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: ./apex deploy
