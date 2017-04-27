@@ -5,7 +5,7 @@ before_script:
   - cd functions/sum
   - npm install
 before_install:
-  - pip install --upgrade --user pip
+  - pip install --upgrade pip
   - pip install awscli
   - cd ../../
   - "./travis-install-apex.sh"
