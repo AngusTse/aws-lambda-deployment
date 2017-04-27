@@ -1,8 +1,8 @@
 {
-  "name": "lambda-deployment-apex",
-  "description": "apex demo",
+  "name": "demo",
+  "description": "just for demo",
   "memory": 128,
   "timeout": 5,
-  "role": "arn:aws:iam::884688150447:role/lambda-deployment-apex_lambda_function",
+  "role": "arn:aws:iam::884688150447:role/demo_lambda_function",
   "environment": {}
 }
