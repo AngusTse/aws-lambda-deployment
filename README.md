@@ -15,6 +15,7 @@ https://medium.com/vandium-software/unit-testing-aws-lambda-functions-in-node-js
 ## Deploy with apex
 
 http://apex.run/
+
 `curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh`
 
 ### Install aws-cli

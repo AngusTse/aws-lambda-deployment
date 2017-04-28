@@ -17,7 +17,7 @@ describe( 'handler', function() {
 		return LambdaTester( sumFunction )
 			.event( { num1: -1, num2: -10, } )
 			.expectSucceed(function( result ) {
-                expect(result.sum).to.equal(-11);
+                expect(result.sum).to.equal(-12);
             });
 	});
 
