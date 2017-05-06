@@ -19,6 +19,18 @@ http://apex.run/
 `curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh`
 
 ### Install aws-cli
+There are several options to install aws cli:
+
+#### MacOS
+```
+$ brew install awscli
+```
+#### via pip (shipped with python)
+```
+$ pip install aws-cli --upgrade --user
+$ export PATH=~/.local/bin:$PATH
+```
+#### Manually
 
 ```
 $ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
