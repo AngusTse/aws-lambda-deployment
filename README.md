@@ -18,7 +18,7 @@ http://apex.run/
 
 `curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh`
 
-### Install aws-cli
+### Install awscli
 There are several options to install aws cli:
 
 #### MacOS
