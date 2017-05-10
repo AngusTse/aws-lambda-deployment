@@ -9,7 +9,7 @@ describe( 'handler', function() {
 		return LambdaTester( sumFunction )
 			.event( { num1: 1, num2: 2, } )
 			.expectSucceed(function( result ) {
-                expect(result.sum).to.equal(3);
+                expect(result.sum).to.equal(4);
             });
 	});
 
